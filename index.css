@@ -1,0 +1,52 @@
+html {
+//background-color: #efefef;
+
+background-color: #009999;
+}
+
+footer {
+font-family: 'Raleway Dots', sans-serif;
+//color: #888;
+color: #000000;
+margin-right: 2em;
+margin-top: -5em;
+text-align: right;
+}
+
+img {
+width: 2.4em;
+height: 2.4em;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+border-radius: 100%;
+
+}
+
+img:hover {
+-webkit-border-radius: 0%;
+-moz-border-radius: 0%;
+border-radius: 0%;
+}
+
+text {
+stroke: rgba(0, 0, 0, 0);
+fill: #000;
+font-family: 'Nixie One', serif;
+font-size: 1.17em;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+path {
+stroke: #ccc;
+}
+
+text:hover {
+font-size: 1.25em;
+}
